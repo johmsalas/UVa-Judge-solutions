@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : 3n+1.cpp
 // Author      : Johny Salas
-// Version     :
+// Version     : 1.0
 // Copyright   : No copy
 // Description : 3n+1 in C++, Ansi-style
 //============================================================================
@@ -10,9 +10,7 @@
 #include <algorithm>
 using namespace std;
 
-// The maximum size was calculating by executing the algorithm from 1 to 10000
-//  and watching all possibles n
-#define SIZE 13557212
+#define SIZE 913557212
 
 static unsigned short cache[SIZE];
 
